@@ -1,4 +1,4 @@
-# Carrosselniced
+# Carrosselniced V.0.4
 
 Carrossel and Slider create dinamic
 
@@ -62,4 +62,4 @@ automatic DELETE ".helperComplement" for vtex plataform in DIV ".carrosselniced"
 
 - FREE FOR ALL lol
 - Hey this Free Cultural Works, Libre Niced!
-- More http://creativecommons.org/freeworks
+- http://creativecommons.org/freeworks
