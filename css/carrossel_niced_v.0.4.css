@@ -1,0 +1,201 @@
+/* reset */
+
+html,
+body,
+div,
+ul,
+li,
+button{
+    border:0;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+}
+
+/* :reset */
+
+/* carrosselniced */
+
+.carrosselniced{
+    width:100%;
+    position:relative;
+    margin:0 0 15px;
+}
+
+.carrosselniced:first-child{
+    /*margin:40px 0 20px;*/
+}
+
+.carrosselniced .block{
+    width:100%;
+    /*height:180px;*/
+    transition:all 0.4s;
+    overflow:hidden;
+}
+
+.carrosselniced .content{
+    margin:0;
+}
+
+.carrosselniced .content li{
+    width:100%;
+    /*height:180px;
+    line-height:180px;
+    font-size:60px;
+    font-weight:800;
+    color:rgba(255, 255, 255, 0.4);
+    font-family:arial;*/
+    position:relative;
+    /*margin:0 5px;*/
+    /*test*/
+    /*padding:0 5px;*/
+    /*test*/
+    text-transform:uppercase;
+    transition:all 0.4s;
+    overflow:hidden;
+    text-align:center;
+    display:block;
+    float:left;
+}
+
+.carrosselniced .content li img{
+    width:100%;
+    /*height:100%;*/
+    /*position:absolute;*/
+    /*left:0;
+    top:0;
+    z-index:-1;*/
+}
+
+.carrosselniced .control{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.carrosselniced .control button{
+    background:none;
+    position:absolute;
+    top:0;
+    color:#00C4FF;
+    font-size:13px;
+    font-weight:100;
+    text-transform:uppercase;
+    transition:all 0.4s;
+    cursor:pointer;
+    display:inline-block;
+}
+
+.carrosselniced .control button span{
+    font-size:35px;
+    font-weight:100;
+}
+
+.carrosselniced .control button:hover{
+    color:#111111;
+}
+
+.carrosselniced .control button.prev{
+    left:-35px;
+}
+
+.carrosselniced .control button.next{
+    right:-35px;
+}
+
+.carrosselniced .bullet{
+    width:100%;
+    position:absolute;
+    top:15px;
+    left:0;
+    z-index:1;
+    text-align:center
+}
+
+.carrosselniced .bullet button{
+    width:14px;
+    height:14px;
+    background:rgba(255, 255, 255, 0.6);
+    text-indent:-9999px;
+    margin:0 3px;
+    border:1px solid #717171;
+    border-radius:20px;
+    cursor:pointer;
+    display:inline-block;
+}
+
+.carrosselniced.caption .bullet button{
+    width:auto;
+    height:auto;
+    text-indent:0;
+    padding:3px 5px;
+    margin:0 3px 0 0;
+    font-size:10px;
+    color:#424242;
+    border-radius:3px;
+}
+
+.carrosselniced .bullet button.selected{
+    background:#00C4FF;
+}
+
+.carrosselniced.caption .bullet button.selected{
+    color:#FFFFFF;
+}
+
+/* animations */
+
+.carrosselniced.anGrayscale .block{
+    filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+}
+
+.carrosselniced.anRotateY .block{
+    transform:rotateY(360deg);
+}
+
+.carrosselniced.anRotateX .block{
+    transform:rotateX(360deg);
+}
+
+.carrosselniced.anOpacity .block{
+    opacity:0;
+}
+
+/* :animations */
+
+/* :carrosselniced */
+
+/* adjust for plataform */
+section#slider .slider-content .carrosselniced .control{
+    width:90px !important;
+    height:50px !important;
+    position:absolute;
+    right:3% !important;
+    bottom:4.3% !important;
+    top:inherit;
+    left:inherit;
+    margin:0 !important;
+}
+section#slider .slider-content .carrosselniced .control button{
+    padding:15px;
+    color:white;
+    left:inherit !important;
+    right:inherit !important;
+    cursor:pointer;
+    border:1px solid white;
+    top:inherit;
+}
+section#slider .slider-content .carrosselniced .control span{
+    font-size:18px;
+}
+section#slider .slider-content .carrosselniced .control button:first-child{
+    left:0 !important;
+}
+section#slider .slider-content .carrosselniced .control button:last-child{
+    right:0 !important;
+}
+/* adjust for plataform */
