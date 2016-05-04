@@ -32,48 +32,6 @@ h1, h2 {
 h2{
     font-size:20px;
 }
-.info {
-    font-size:12px;
-    font-family:verdana;
-    color:#737373;
-    line-height:16px;
-    text-align:center;
-}
-.info strong{
-    margin:20px 0;
-    display:block;
-    font-size:13px;
-    color:#000000;
-    font-weight:100;
-}
-.info .code b{
-    font-weight:100;
-    color:#3ABEFF;
-}
-.info .data b{
-    font-weight:100;
-    color:#FFA700;
-}
-.info strong {
-    margin:20px 0;
-    display:block;
-    font-size:13px;
-    color:#000000;
-    font-weight:700;
-    clear:both;
-}
-.info .left{
-    float:left;
-}
-.info .right{
-    float:right;
-}
-.info .left,
-.info .right{
-    text-align:left;
-    width:49%;
-    margin: 0 0 40px;
-}
 .productCarrousel{
     width:calc(100% - 70px);
     margin:0 auto;
