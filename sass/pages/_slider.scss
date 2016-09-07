@@ -31,7 +31,7 @@
 	    	}
 	    }
 	}
-	@extend .control;
+	@import '../molecules/control';
 	.bullet{
 	    width:$porc100;
 	    position:absolute;
