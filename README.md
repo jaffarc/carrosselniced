@@ -11,6 +11,9 @@ Carrossel and Slider create dinamic
 - [VTEX] jQuery v.1.8 - Recommended jQuery v.1.11.3
 - Font-Awesome //fortawesome.github.io/Font-Awesome
 
+### RUN sass
+	npm run sass
+
 #### MOD
 - For client [Vino Italia]
 - Developed in [TOPDEALS - Negócios e Ideias]
