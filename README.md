@@ -14,9 +14,6 @@ Carrossel and Slider create dinamic
 ### RUN sass
 	npm run sass
 
-#### MOD
-- For client [Vino Italia]
-- Developed in [TOPDEALS - Negócios e Ideias]
 
 #### Courtesy
 - WIZARD FLY
