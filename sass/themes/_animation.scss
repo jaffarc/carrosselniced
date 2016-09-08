@@ -1,0 +1,24 @@
+.anGrayscale{
+	.block{
+		@include grayscale_element(#{$porc100});
+	   // filter:grayscale(100%);
+	   // -webkit-filter:grayscale(100%);
+	}
+}
+.anRotateY{
+	.block{
+		@include rotate(360deg)	
+	    //transform:rotateY(360deg);
+	}
+}
+.anRotateX{
+	.block{
+		@include rotate(360deg)	
+	    //transform:rotateX(360deg);
+	}
+}
+.anOpacity{
+	.block{
+	    opacity:0;
+	}
+}
