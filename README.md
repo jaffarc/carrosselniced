@@ -6,9 +6,13 @@ Carrossel and Slider create dinamic
 * Update 04/05/2016
 
 #### Requires
+- sass http://sass-lang.com/install
 - BASE (Using)
 - [VTEX] jQuery v.1.8 - Recommended jQuery v.1.11.3
 - Font-Awesome //fortawesome.github.io/Font-Awesome
+
+### RUN sass
+	npm run sass
 
 #### MOD
 - For client [Vino Italia]
@@ -16,7 +20,6 @@ Carrossel and Slider create dinamic
 
 #### Courtesy
 - WIZARD FLY
-- Adonis Vieira - Analist Front End
 - http://wizardfly.com.br
 - I T I S T H E G R E A T E ( w ) I Z A R D W H O F L I E S -
 
@@ -58,8 +61,8 @@ Carrossel and Slider create dinamic
 #### NOTE
 automatic DELETE ".helperComplement" for vtex plataform in DIV ".carrosselniced"
 
-#### License
 
-- FREE FOR ALL lol
+## License
+
+[MIT License] © - Adonis Vieira - Analist Front End
 - Hey this Free Cultural Works, Libre Niced!
-- http://creativecommons.org/freeworks

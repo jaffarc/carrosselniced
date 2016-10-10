@@ -1,27 +1,33 @@
 {
   "name": "carrosselniced",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Carrossel and Slider create dinamic",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "",
     "build": "",
-    "css": "sass --sourcemap=none  --watch  sass/main.scss:build/css/style.css --style compressed",
+    "css": "sass --sourcemap=none  sass/main.scss:build/css/style.css --style compressed",
     "cs": "sass --sourcemap=none  --watch  sass/main.scss:build/css/style.css "
   },
+  "main": "",
+  "keywords": [
+    "sass",
+    "Slider",
+    "vtex",
+    "atomic"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaffarc/carrosselniced.git"
+    "url": "git+https://github.com/doniextreme/carrosselniced.git"
   },
-  "author": "jaffar cardoso <jaffar.cardoso@gmail.com> (jaffar.com.br)",
+  "author": "Adonis Vieira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jaffarc/carrosselniced/issues"
+    "url": "https://github.com/doniextreme/carrosselniced/issues"
   },
-  "homepage": "https://github.com/jaffarc/carrosselniced#readme",
+  "homepage": "https://github.com/doniextreme/carrosselniced#readme",
   "dependencies": {},
   "devDependencies": {
-    "browserify-css": "^0.9.2",
-    "minifier": "^0.8.0"
+
   }
 }

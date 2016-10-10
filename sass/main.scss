@@ -9,12 +9,13 @@
 @import
   'base/reset',
   'base/base',
-  'base/fonts',
+  //'base/fonts',
   'base/typography';
 
 // 3. Components
-//@import
- // 'molecules/solucao';
+@import
+  'molecules/control',
+  'molecules/button';
 
 // 4. Layout-related sections
 ///@import
